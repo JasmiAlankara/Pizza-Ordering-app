@@ -9,13 +9,26 @@
     padding-top: 10px;
   }
   
-  .socialMedia svg {
-    color: white;
-    margin: 20px;
-    font-size: 70px;
+  .socialMedia {
+    display: flex; /* Ensure icons are arranged horizontally */
+    justify-content: center; /* Center icons horizontally */
+    align-items: center; /* Center icons vertically (if needed) */
+  }
+  
+  .socialMedia button {
+    background: none;
+    border: none;
+    padding: 0;
     cursor: pointer;
+    margin: 0 20px; /* Adjust spacing as needed */
+  }
+  
+  .socialMedia button svg {
+    color: white;
+    font-size: 70px; /* Adjust icon size as needed */
   }
   
   .footer p {
     color: white;
+    margin-top: 20px; /* Add some space between icons and text */
   }
